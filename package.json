@@ -1,0 +1,25 @@
+{
+  "name": "xokas",
+  "version": "1.0.0",
+  "description": "Fetch The Wayback Machine tweets into a CSV",
+  "main": "index.js",
+  "scripts": {
+  },
+  "keywords": ["twitter", "the wayback machine"],
+  "author": {
+    "name" : "imharvol",
+    "email" : "imharvol@gmail.com",
+    "url" : "https://imharvol.com/"
+    },
+  "license": "GPL-3.0-or-later",
+  "dependencies": {
+    "better-sqlite3": "^7.5.0",
+    "domutils": "^2.8.0",
+    "htmlparser2": "^7.2.0",
+    "json2csv": "^5.0.7",
+    "node-fetch": "^2.6.7"
+  },
+  "devDependencies": {
+    "standard": "^16.0.4"
+  }
+}
